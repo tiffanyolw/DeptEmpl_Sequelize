@@ -11,10 +11,6 @@ const Employee = config.define("Employee", {
     name: {
         type: Sequelize.STRING,
         allowNull: false
-    },
-    department_id: {
-        type: Sequelize.INTEGER,
-        allowNull: false
     }
 }, {timestamps: false});
 

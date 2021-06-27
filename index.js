@@ -8,6 +8,7 @@ const port = 3000;
 
 Department.hasMany(Employee, {
     foreignKey: {
+        name: "department_id",
         allowNull: false
     },
     onDelete: "CASCADE"
